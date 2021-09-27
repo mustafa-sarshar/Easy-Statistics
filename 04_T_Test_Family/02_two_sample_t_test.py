@@ -1,3 +1,11 @@
+"""
+Calculate the T-test for the means of two independent samples of scores.
+This is a two-sided test for the null hypothesis that 2 independent samples have 
+    identical average (expected) values.
+This test assumes that the populations have identical variances by default.
+Resource: https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.ttest_ind.html
+"""
+
 # In[] Libs
 import matplotlib.pyplot as plt
 import numpy as np

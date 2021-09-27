@@ -1,3 +1,11 @@
+"""
+Calculate the T-test for the mean of ONE group of scores.
+This is a two-sided test for the null hypothesis that the expected value (mean) 
+    	of a sample of independent observations a is equal to the given population 
+        mean, popmean.
+Resource: https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.ttest_1samp.html
+"""
+
 # In[] Libs
 import numpy as np
 import matplotlib.pyplot as plt

@@ -9,6 +9,7 @@ Resources:
     https://datatab.net/tutorial/mann-whitney-u-test
 """
 
+
 # In[] Libs
 import matplotlib.pyplot as plt
 import numpy as np
