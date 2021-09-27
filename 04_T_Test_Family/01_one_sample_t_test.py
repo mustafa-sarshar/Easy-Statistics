@@ -39,5 +39,5 @@ plt.legend()
 plt.show()
 
 # In[] T-Test from stats package
-t_statistic, p_value = stats.ttest_1samp(a=data, popmean=h0_val)
-print(f"t-Statistic= {t_statistic:0.4f}, p={p_value/2:0.34f}")
+statistic, p_value = stats.ttest_1samp(a=data, popmean=h0_val)
+print(f"t-Statistic= {statistic:0.4f}, p={p_value/2:0.34f}")
